@@ -1,0 +1,74 @@
+body{
+    background-image: linear-gradient(to top right, #9f00d9, #0076ff);
+    margin-top: 130px !important;
+}
+.container{
+    height: 696px;
+}
+
+.register-left{
+    text-align: center;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    color: #fff;
+    padding: 30px;
+    box-shadow: 10px 10px 70px rgba(0, 0, 0, 0.67);
+}
+
+.register-left img{
+    margin-top: 60px;
+    margin-bottom: 18px;
+    width: 80px;
+    animation: UpDown 1s infinite alternate;
+}
+.register-left p{
+    padding: 20px 20px 0;
+}
+.register-left .btn-primary{
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #f8f8f8;
+    font-weight: 600;
+    color: #555;
+    margin-top: 20px;
+    padding: 10px;
+}
+.register-left .btn-primary:hover{
+    background-color: #9f00d9;
+}
+.register-right{
+    border: none;
+    background: #f8f8f8;
+    border-top-right-radius:30%;
+    border-bottom-right-radius: 30%;
+    padding: 50px;
+}
+.register-right h2{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: #555;
+}
+.register-form
+{
+    padding: 30px;
+}
+.register-right .btn-primary{
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #9f00d9;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px;
+}
+.register-right .btn-primary:hover{
+    background-color: #0076ff;
+    
+}
+@keyframes UpDown{
+    0%{transform: translateY(0)}
+    0%{transform: translateY(-30px)}
+}
